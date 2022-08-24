@@ -1,0 +1,50 @@
+h2 {
+  text-align: center;
+}
+
+.fa-solid {
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.list {
+  padding-top: 0.25em;
+  padding-bottom: 0.24em;
+  width: 25vw;
+  padding-left: 0;
+  list-style-type: none;
+  background-color: rgb(244, 219, 219);
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 0.25em;
+  transition: opacity 1s;
+}
+.list .color {
+  height: 2em;
+  cursor: pointer;
+  text-align: center;
+}
+
+#color-white {
+  background-color: white;
+}
+
+#color-red {
+  background-color: red;
+}
+
+#color-blue {
+  background-color: blue;
+}
+
+#color-green {
+  background-color: green;
+}
+
+#color-yellow {
+  background-color: yellow;
+}
+
+.hide {
+  opacity: 0;
+}/*# sourceMappingURL=styles.css.map */
